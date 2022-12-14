@@ -106,7 +106,6 @@ class Boid:
                 avoid_vector[0] -= (b.pos[0] - self.pos[0])
                 avoid_vector[1] -= (b.pos[1] - self.pos[1])
 
-
         return avoid_vector
 
     def align(self, boids):
